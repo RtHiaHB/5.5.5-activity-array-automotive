@@ -43,6 +43,8 @@ class Car extends VehicleModule.Vehicle {
             this.started = false;
         }
     }
+    //I had to rename this function because there is already a property named schedulingService
+    //declared in the constructor
     schedulingService(mileage) {
         this.mileage = mileage;
         if(this.mileage > 30000) {
@@ -55,7 +57,8 @@ class Car extends VehicleModule.Vehicle {
     }
 }
 
-const newCar = new Car();
-newCar.schedulingService(0);
-newCar.loadPassenger(2);
-newCar.start();
+// below is a test to make sure that the class works as intended.
+// const newCar = new Car();
+// newCar.schedulingService(0);
+// newCar.loadPassenger(2);
+// newCar.start();

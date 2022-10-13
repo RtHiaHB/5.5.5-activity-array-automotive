@@ -1,0 +1,20 @@
+{
+  "name": "mercurysedan.js",
+  "version": "1.0.0",
+  "description": "- In this lesson students work on sub-classing a base vehicle class\r - to do this we need a way of importing / using code from a different file...",
+  "main": "mecurySedan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mecurySedan.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RtHiaHB/5.5.5-activity-array-automotive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RtHiaHB/5.5.5-activity-array-automotive/issues"
+  },
+  "homepage": "https://github.com/RtHiaHB/5.5.5-activity-array-automotive#readme"
+}
